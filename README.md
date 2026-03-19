@@ -142,7 +142,6 @@ python .\collect_solve_camoufox.py --url "https://www.geetest.com/en/demo" --out
 
 Полезные флаги:
 
-- `--headless`: запуск без окна
 - `--no-drag`: только посчитать `x`, без перетаскивания
 - `--drag-fudge N`: калибровка смещения (например `--drag-fudge 2.5`)
 - `--method sobel|laplacian`: выбор градиентов
