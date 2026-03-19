@@ -160,32 +160,6 @@ python .\batch_test_solve_camoufox.py --n 50 --drag-fudge 0.0 --method sobel --b
 
 ---
 
-## Параметры CLI (кратко)
-
-### `gradient_highlight.py`
-
-- `--input`: входная картинка (по умолчанию `data/bg.png`)
-- `--out-dir`: куда сохранять результаты (по умолчанию `data/`)
-- `--method`: `sobel` или `laplacian`
-- `--blur`: Gaussian blur (нечётный >=3), `0` чтобы отключить
-- `--alpha`: прозрачность overlay (0..1)
-- `--show`: показать окна OpenCV
-- `--match-puzzle`: путь к пазлу (шаблону)
-- `--match-out`: путь для `match_location.png`
-
-### `collect_solve_camoufox.py`
-
-- `--url`: URL страницы (по умолчанию Geetest demo)
-- `--out-dir`: сохранить скачанные `bg.png`/`puzzle.png` (опционально)
-- `--timeout`: общий таймаут ожидания капчи/картинок
-- `--headless`: без окна
-- `--drag/--no-drag`: включить/выключить перетаскивание
-- `--drag-fudge`: калибровка смещения (px)
-- `--post-drag-wait`: пауза после отпускания ползунка
-- `--method`, `--blur`: параметры градиентов (как выше)
-
----
-
 ## Структура проекта
 
 - `gradient_highlight.py`  градиенты, визуализация, `find_best_match_on_gradients`
