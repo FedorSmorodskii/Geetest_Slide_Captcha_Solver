@@ -1,0 +1,4 @@
+numpy>=1.23
+opencv-python>=4.8
+camoufox>=0.4
+playwright>=1.45
